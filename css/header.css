@@ -1,0 +1,53 @@
+header {
+	max-width: 1300px;
+	margin: 0 auto;
+	height: 95px;
+	background: url(../images/bg-header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 23px;
+}
+
+.logo {
+	font-size: 24px;
+	color: #fff;
+	background: #f26c4f;
+	width: 28.46%;
+	height: 45px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.logo sup {
+	color: #f5937e;
+}
+
+.top-line {
+	display: flex;
+	background: url(../images/bg-top-line.png)
+
+}
+
+.top-line nav {
+	max-width: 71.54%;
+
+}
+
+.top-line nav ul {
+	display: flex;
+	align-items: center;
+	height: 45px;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.top-line nav ul li {
+	padding-left: 24px;
+}
+
+.top-line nav ul li a {
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}

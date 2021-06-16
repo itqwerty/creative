@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html, body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background: url(../images/bg-body.png);
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 0.75rem;
+}
+
+.container:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.row {
+	margin: 0 -0.75rem;
+	position: relative;
+}
+
+.row:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*____________sidebar________-*/
+
+.sidebar {
+	height: 190px;
+	width: 47.5px;
+	background: #f06045;
+	border-top:1px solid #d75f48;
+	border-bottom:1px solid #d75f48;
+	border-right:1px solid #d75f48;
+	position: fixed;
+	left: 142px;
+	top: 260px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	
+}
+
+.sidebar ul li {
+	width: 47.5px;
+	height: 47.5px;
+	text-align: center;
+	line-height: 47.5px;
+	border-bottom: 1px solid #cd4f3a;
+	box-shadow:0px 1px 0px 0px #e17f68;
+	
+}
+
+.sidebar ul li:hover{
+	background: #d9654e;
+	cursor: pointer;
+}
+
+
+.sidebar ul li a {
+	text-decoration: none;
+	color: #bb341b;
+}
+
+/*____________sidebar-end________*/
+
+
